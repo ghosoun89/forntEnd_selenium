@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/test/Desktop/frontEndSite on chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="testcases.HomePageTest"></class>
+            <class name="testcases.ChallengesPageTest"></class>
+            <class name="testcases.ChallengePageTest"></class>
+        </classes>
+
+    </test>
+    <test verbose="2" preserve-order="true" name="/home/test/Desktop/frontEndSite on firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="testcases.HomePageTest"></class>
+            <class name="testcases.ChallengesPageTest"></class>
+            <class name="testcases.ChallengePageTest"></class>
+        </classes>
+    </test>
+</suite>
